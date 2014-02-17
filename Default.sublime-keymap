@@ -1,4 +1,4 @@
 [
-    {"command": "string_go_tp", "keys": ["ctrl+shift+o"]}
+    {"command": "string_go_to", "keys": ["ctrl+shift+o"]}
 ]
 

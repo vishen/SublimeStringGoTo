@@ -70,9 +70,9 @@ class StringGoTo(sublime_plugin.TextCommand):
     )
 
     def run(self, edit):
-
+		print 'Found COmmand'
         self.file_type = self._get_file_type(self.view.file_name())
-
+		print self.file_type
         string = get_string(self.view)
         if string:
             self.string_dispatch(string)
